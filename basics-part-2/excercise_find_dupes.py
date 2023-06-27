@@ -10,7 +10,8 @@ def duplicate_checker(a_list):
         else:
             dupe_list.append(item)
             print(f"This {item} is a dupe!")
-    print(dupe_list)
+    print(f"Dupes: {dupe_list}")
+    print(f"Uniques: {unique_list}")
 
 duplicate_checker(my_list)
 
