@@ -7,8 +7,8 @@ print("*" * 10)
 
 print(list(range(10,100)))
 
-sentence = '|'
-new_sentence = sentence.join(['hi', 'my','name', 'is', 'John'])
+spacer = '|'
+new_sentence = spacer.join(['hi', 'my','name', 'is', 'John'])
 print(new_sentence)
 
 # or
