@@ -1,3 +1,5 @@
+# note: dictionary keys must be immutable and unique!
+
 dictionary = {
     'a': [1,2,3],
     'b': 'hello',
