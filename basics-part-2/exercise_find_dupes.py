@@ -25,3 +25,23 @@ def duplicate_checker2(a_list):
 
 duplicate_checker2(my_list)
 
+
+# Check for duplicates in a string
+my_string = 'hellllooo'
+def duplicate_checker3(any_string):
+    dupe_list = []
+    for letter in any_string:
+        if any_string.count(letter) > 1 and letter not in dupe_list:
+            dupe_list.append(letter)
+    return dupe_list
+
+print(duplicate_checker3(my_string))
+
+
+# other method using sets instead of looping
+def duplicate_checker4(any_string):
+    if len(any_string) != len(set(any_string)):
+        print("We have dupes!")
+        return True
+    
+print(duplicate_checker4(my_string))
